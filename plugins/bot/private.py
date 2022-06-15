@@ -1,6 +1,6 @@
 """
 RadioPlayerV3, Telegram Voice Chat Bot
-Copyright (c) 2021  Asm Safone <https://github.com/AsmSafone>
+Copyright (c) 2021  Asm Safone <https://github.com/Popay-ckl>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by
@@ -197,12 +197,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("SEARCH SONGS INLINE", switch_inline_query_current_chat=""),
             ],
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/AsmSupport"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/POEMS_N_SHAYARI"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/SCHOOL_WALLI_MASTII"),
             ],
             [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/AsmSafone/RadioPlayerV3"),
+                InlineKeyboardButton("MORE BOTS", url="https://t.me/SCHOOL_WALLI_MASTII"),
+                InlineKeyboardButton("SOURCE CODE", url="https://github.com/Popay-ckl/RadioPlayerV3"),
             ],
             [
                 InlineKeyboardButton("BACK HOME", callback_data="home"),
@@ -224,12 +224,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("SEARCH SONGS INLINE", switch_inline_query_current_chat=""),
             ],
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/AsmSupport"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/POEMS_N_SHAYARI"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/SCHOOL_WALLI_MASTII"),
             ],
             [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/AsmSafone/RadioPlayerV3"),
+                InlineKeyboardButton("MORE BOTS", url="https://t.me/SCHOOL_WALLI_MASTII"),
+                InlineKeyboardButton("SOURCE CODE", url="https://github.com/Popay-ckl/RadioPlayerV3"),
             ],
             [
                 InlineKeyboardButton("❔ HOW TO USE ❔", callback_data="help"),
@@ -262,12 +262,12 @@ async def start(client, message):
                 InlineKeyboardButton("SEARCH SONGS INLINE", switch_inline_query_current_chat=""),
             ],
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/AsmSupport"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/POEMS_N_SHAYARI"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/SCHOOL_WALLI_MASTII"),
             ],
             [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/AsmSafone/RadioPlayerV3"),
+                InlineKeyboardButton("MORE BOTS", url="https://t.me/SCHOOL_WALLI_MASTII"),
+                InlineKeyboardButton("SOURCE CODE", url="https://github.com/Popay-ckl/RadioPlayerV3"),
             ],
             [
                 InlineKeyboardButton("❔ HOW TO USE ❔", callback_data="help"),
@@ -286,12 +286,12 @@ async def help(client, message):
                 InlineKeyboardButton("SEARCH SONGS INLINE", switch_inline_query_current_chat=""),
             ],
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/AsmSupport"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/POEMS_N_SHAYARI"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/SCHOOL_WALLI_MASTII"),
             ],
             [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/AsmSafone/RadioPlayerV3"),
+                InlineKeyboardButton("MORE BOTS", url="https://t.me/SCHOOL_WALLI_MASTII"),
+                InlineKeyboardButton("SOURCE CODE", url="https://github.com/Popay-ckl/RadioPlayerV3"),
             ],
             [
                 InlineKeyboardButton("BACK HOME", callback_data="home"),
@@ -318,7 +318,7 @@ async def set_heroku_var(client, message):
     if " " in message.text:
         cmd, env = message.text.split(" ", 1)
         if  not "=" in env:
-            k=await message.reply_text("❗ **You Should Specify The Value For Variable!** \n\nFor Example: \n`/setvar CHAT_ID=-1001313215676`")
+            k=await message.reply_text("❗ **You Should Specify The Value For Variable!** \n\nFor Example: \n`/setvar CHAT_ID=-1001388711336`")
             await mp.delete(k)
             await mp.delete(message)
             return
